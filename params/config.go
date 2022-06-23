@@ -38,11 +38,11 @@ import (
 // Avalanche ChainIDs
 var (
 	// AvalancheMainnetChainID ...
-	AvalancheMainnetChainID = big.NewInt(43114)
+	AvalancheMainnetChainID = big.NewInt(98200)
 	// AvalancheFujiChainID ...
-	AvalancheFujiChainID = big.NewInt(43113)
+	AvalancheFujiChainID = big.NewInt(98199)
 	// AvalancheLocalChainID ...
-	AvalancheLocalChainID = big.NewInt(43112)
+	AvalancheLocalChainID = big.NewInt(98198)
 
 	errNonGenesisForkByHeight = errors.New("coreth only supports forking by height at the genesis block")
 )
